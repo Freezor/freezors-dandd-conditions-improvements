@@ -1,0 +1,52 @@
+{
+  "id": "freezors-dandd-conditions-improvements",
+  "title": "Freezor's D&D Conditions Improvements",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "freezors-additional-damage-types",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "condition-lab-triggler",
+        "type": "module"
+      }
+    ]
+  },
+  "scripts": [
+    "scripts/setup.js"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "Freezor",
+      "url": "https://github.com/Freezor"
+    }
+  ]
+}

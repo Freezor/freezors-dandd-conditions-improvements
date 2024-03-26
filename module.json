@@ -22,7 +22,8 @@
       },
       {
         "id": "condition-lab-triggler",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -47,6 +48,19 @@
     {
       "name": "Freezor",
       "url": "https://github.com/Freezor"
+    }
+  ],
+  "packs": [
+    {
+      "name": "fci-rules",
+      "label": "FCI-Rules",
+      "path": "packs/fci-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ]
 }
